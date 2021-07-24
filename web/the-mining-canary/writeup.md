@@ -29,19 +29,46 @@ Here, the idea was just that inputting NEW{} or a link would be some ways of ear
 
 There are ways you can have a peak at the source code here [Canary Tokens](https://github.com/thinkst/canarytokens) but when trying to access the site, use this instead [CanaryTokens Generate](https://canarytokens.org/generate) since the about tab uses `http` over `https` and it seriously bugs me...
 
+*We do not endorse the sending of these links to be used offensively... More for personal security.*
 
+But this method itself is not entirely perfect, as explained like honeypots 'catches those who don't know what they are doing and just casually looking around clicking files'.
+
+### The Friendly Canary At Work
+
+<img src="writeup-images/4.PNG">
+
+And many of these in team chats and global chat!
+
+<img src="writeup-images/5.PNG">
+
+Thanks for being great sports everyone :)
+
+(Me during the Skylight CTF)
+
+<img src="writeup-images/6.PNG"> 
+
+**Mission success!**
 
 ### Real-World Applications
-*Soon*
+- Companies use honeypots to analyse their attackers and establish a threat model
+- Just in general fun thing to catch attackers
+- Personal security
 
 ## Solution
 
 ### Walkthrough
 
-*More in depth soon - I have a lot to say about this challenge...*
-- F12 or Right click + Inspect Element -> look through elements, there is 1 part of the flag
-- Look at sources in the same window (one of the top right tabs) and look at main.css, top of file there is part 2 of the flag
-- Go to application in the same window (one of the top right tabs) and go to cookies. Look through and part 3 of the flag is there.
+Image 1: F12 or Right click + Inspect Element -> look through elements, there is 1 part of the flag
+
+<img src="writeup-images/1.PNG">
+
+Image 2: Look at sources in the same window (one of the top right tabs) and look at main.css, top of file there is part 2 of the flag
+
+<img src="writeup-images/2.PNG">
+
+Image 3: Go to application in the same window (one of the top right tabs) and go to cookies. Look through and part 3 of the flag is there.
+
+<img src="writeup-images/3.PNG">
 
 ### Flag
 SHA256 encoded: `b207f6328d63634d10331d74dc84538c25e5524837d4fa96323cdb10cc409af0`
