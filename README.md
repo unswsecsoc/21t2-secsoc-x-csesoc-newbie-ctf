@@ -5,3 +5,16 @@ Repository for challenges in the 2021 SecSoc x CSESoc Newbie CTF, with writeups 
 Want to submit your own community writeup for a challenge (even one which already has a writeup)? Make a pull request! We love to see different approaches to solving problems.
 
 We hope you had fun participating in the CTF! Stay tuned for updates on future CTFs and events and come hang out with us on discord!! :)
+
+### Currently released writeups:
+👍 plumbing advice  
+👍 top secret  
+👍 no strings attached  
+👍 no code attached  
+👍 just another tall building  
+👍 a rocket  
+👍 the mining canary  
+👍 mark inspection  
+👍 base64 onion  
+👍 azerty  
+👍 secbin  
