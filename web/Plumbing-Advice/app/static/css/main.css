@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  background-color: rgb(243, 230, 202);
+  display: flex;
+}
+
+.main-container {
+  max-width: 1800px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-logo {
+  display: block;
+  max-width: 75%;
+  max-height: 30vh;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.subtitle {
+  font-weight: bold;
+  text-align: center;
+}
+
+#myform {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.input {
+  width: 60%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.is-primary {
+  height: 35px;
+  border-radius: 10px;
+}
+
+#res-list {
+  margin-top: 30px;
+}
+
+ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+li {
+  line-height: 20px;
+  margin-left: 150px;
+}

@@ -1,0 +1,12 @@
+# Use root/example as user/password credentials
+version: "2.2"
+
+services:
+  app:
+    build: ./app
+    command: uvicorn app.main:app --host 0.0.0.0
+    restart: unless-stopped
+    ports:
+      - 8008:8000
+    volumes:
+      - ./:/app

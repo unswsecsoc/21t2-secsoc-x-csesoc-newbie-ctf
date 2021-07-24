@@ -1,0 +1,162 @@
+html,
+body,
+#root {
+  height: 100%;
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: rgb(24, 26, 27);
+  color: rgb(209, 205, 199);
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 10px;
+}
+
+.form-control,
+.form-control:focus {
+  color: rgb(209, 205, 199);
+  background-color: rgb(24, 26, 27);
+  border-color: rgb(60, 65, 68);
+}
+
+.link {
+  text-decoration: underline;
+  color: #555;
+  padding-left: 5px;
+}
+
+#main-title {
+  width: auto;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+#formdonecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#done-box {
+  width: 100%;
+  flex-grow: 1;
+}
+
+#done-area {
+  display: flex;
+  flex: 1;
+}
+
+#beta-container {
+  display: flex;
+}
+
+#beta-flex {
+  flex: 7;
+}
+
+#beta-sign {
+  width: auto;
+  height: 5vh;
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8vh;
+  flex: 1;
+}
+
+#formcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  /* max-width: 70%; */
+  margin: 10px 1%;
+  margin-bottom: 200px;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+
+  padding: 5vh 10vh;
+  padding-top: 3vh;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert-danger-custom {
+  background-color: rgb(67, 12, 17);
+  color: rgb(223, 122, 131);
+  border-color: rgb(106, 17, 26);
+}
+
+.close {
+  color: rgb(29, 30, 30);
+  opacity: 0.4;
+  text-decoration: none;
+  text-shadow: rgb(29, 30, 30) 0px 1px 0px;
+}
+
+#logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#slogan {
+  padding-top: 30px;
+}
+
+.box {
+  position: fixed;
+  height: 65%;
+  width: 75%;
+  background-color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.85;
+  padding: 30px;
+  border-radius: 25px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.smaaal {
+  font-size: 5px;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oregano Cafe</title>
+    <style>
+
+        @import url("https://www.abiram.me/assets/fonts/fonts.css");
+
+        html, body {
+            background: #14463b;
+            color: #fbfbfb;
+            font-family: 'Metropolis', sans-serif;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: bolder;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 1348px;
+            margin: 0 auto;
+        }
+
+        /* yoinked from bootstrap */
+
+        .alert {
+            position: relative;
+            padding: 0.75rem 1.25rem;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: 0.25rem;
+        }
+
+        .alert-danger {
+            color: #721c24;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+
+        form {
+            font-size: 20px;
+            padding: 10px 0;
+        }
+
+        input {
+            margin: 3px 0;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            overflow: visible;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        button {
+            border-radius: 5px;
+            margin: 15px 0;
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            overflow: visible;
+            text-transform: none;
+            -webkit-appearance: button;
+            background-color: #363d42 !important;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+
+
+        button:not(:disabled) {
+            cursor: pointer;
+        }
+
+        button:focus, button:hover {
+            background-color: #1d2124 !important;
+        }
+
+        button:focus {
+            outline: 1px dotted;
+            outline: 5px auto -webkit-focus-ring-color;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        {% if message != '' %}
+            <div class="alert alert-danger"> {{ message | safe }} </div>
+        {% endif %}
+        <h1>Oregano Cafe Site Admin Panel</h1>
+        <h3>Any similarities to other cafes is purely coincidental!</h3>
+
+        <form action="/" method="post">
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password"><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

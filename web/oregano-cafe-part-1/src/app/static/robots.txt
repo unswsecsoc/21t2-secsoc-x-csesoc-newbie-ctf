@@ -1,0 +1,4 @@
+# Part 0 Flag: NEWBIE{be3p_b00p_tH!s_siT3_was_pLaGiar!s3D_i_m34n_syNth3sized}
+
+User-agent: *
+Disallow: /starch.py

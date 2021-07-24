@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/background.jpg");
+    background-color: grey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.box {
+    position: fixed;
+    height: 65%; 
+    width: 75%; 
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.85;
+    padding: 30px;
+    border-radius: 25px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.main-title {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.wam-display {
+    margin-top: 1%;
+    overflow-wrap: break-word;
+    text-align: center;
+    font-size: 85px;
+}
+
+table {
+    margin-top: 6%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 20px;
+}

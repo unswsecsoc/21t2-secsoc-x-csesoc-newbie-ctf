@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        
+        html, body {
+            background: #d5ff91;
+            color: #1e3320;
+            font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: bolder;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 1348px;
+            margin: 0 auto;
+        }
+        .alert {
+            position: relative;
+            padding: 0.75rem 1.25rem;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: 0.25rem;
+        }
+
+        .alert-primary {
+            color: #004085;
+            background-color: #cce5ff;
+            border-color: #b8daff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        {% if message != ''%}
+        <div class="alert alert-primary"> {{ message }} </div>
+        {% endif %}
+        <h1></h1>
+    </div>
+</body>
+</html>

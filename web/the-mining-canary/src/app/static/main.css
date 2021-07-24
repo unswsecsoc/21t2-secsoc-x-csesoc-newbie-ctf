@@ -1,0 +1,52 @@
+/* Flag (2/3) */
+/* _Ctr1+sh1ft+I */
+
+html,
+body {
+	height: 100%;
+	font-family: Verdana, Tahoma, sans-serif;
+	background-color: rgb(45, 51, 59);
+	margin: 0;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 15%;
+	margin-bottom: 200px;
+	box-shadow: 5px 5px 8px 3px rgba(0,0,0,0.88);
+	padding: 5vh 10vh;
+	padding-top: 3vh;
+	border-radius: 15px;
+	background-color: white;
+}
+
+.flag {
+	color: rgba(0, 0, 0, 0.575);
+}
+
+.lg-text {
+	font-weight: bold;
+}
+
+.sf-text {
+	font-size: 8px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.center-stuff {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	max-width: 50%;
+	max-height: 50%;
+	margin-bottom: 40px;
+}
